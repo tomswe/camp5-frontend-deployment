@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: `https://camp5-backend-deployment.vercel.app/api`,
+    baseURL: `http://localhost:5000/api`,
     withCredentials: true,
     headers: { 'X-Requested-With': 'XMLHttpRequest' },
 })
